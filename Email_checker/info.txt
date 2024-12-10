@@ -1,0 +1,17 @@
+1. Domain
+The domain is the part of an email address that comes after the "@" symbol. For example, in the email address "example@gmail.com", "gmail.com" is the domain.
+In the context of email, a domain is essentially the identity of the organization or entity that owns the email address.
+
+
+
+2. HasMX
+MX stands for Mail Exchanger. It's a type of DNS (Domain Name System) record that directs email messages to the correct email server.
+"HasMX" indicates whether a domain has a valid MX record configured. This is essential for receiving email messages.
+
+3. HasDMARC
+DMARC stands for Domain-based Message Authentication, Reporting, and Conformance. It's a security protocol that helps prevent email spoofing and phishing attacks.
+"HasDMARC" indicates whether a domain has a valid DMARC record configured. This record specifies how the domain owner wants email providers to handle unauthenticated emails that claim to come from their domain.
+
+4. HasSPF
+SPF stands for Sender Policy Framework. It's a security protocol that helps prevent email spoofing by specifying which email servers are authorized to send emails on behalf of a domain.
+"HasSPF" indicates whether a domain has a valid SPF record configured. This record lists the IP addresses or email servers that are authorized to send emails from the domain.
